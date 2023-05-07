@@ -1,2 +1,3 @@
 # MGR-PJATK
-My attempt to write thesis in sweat and tears
+
+Uniwersalny system do tworzenia obrazów i animacji dla portali internetowych.
