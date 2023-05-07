@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleplus.css">
+</head>
+<body class="full_background">
+
+    <div class="container">
+        <div class="header header_style">
+            <div class="header_table">
+                <table>
+                    <tr>
+                      <th>
+                        <button type="button" class="button_style button_hover" onclick="visstatus1()">Button1</button>
+                      </th>
+                      <th>
+                        <button type="button" class="button_style button_hover" onclick="visstatus2()">Button2</button>
+                      </th>
+                      <th>
+                        <button type="button" class="button_style button_hover">Button3</button>
+                      </th>
+                      <th>
+                        <button type="button" class="button_style button_hover">Button4</button>
+                      </th>
+                    </tr>
+                  </table>
+            </div>
+        </div>
+        <div class="menu menu_style">
+            <!--Option1-->
+            <div id="vis1" class="menu_table menu_option1">
+                <tr>
+                    <th>
+                        <p>Option 1</p>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="text" id="test1" style="width: 100px;">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <button type="button" class="button_style button_hover">Button1</button>
+                    </th>
+                </tr>
+            </div>
+            <!--Option2-->
+            <div id="vis2" class="menu_table menu_option1">
+                <tr>
+                    <th>
+                        <p>Option 2</p>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <button type="button" class="button_style button_hover">Button1</button>
+                    </th>
+                </tr>
+            </div>
+        </div>
+        <div class="main main_style">
+            <canvas 
+                id="testCanvas" 
+                width="600" 
+                height="600" 
+                style="border:1px solid #000000;">
+            </canvas>
+        </div>
+    </div>
+    
+
+    <script src="interface.js"></script>
+</body>
+</html>
